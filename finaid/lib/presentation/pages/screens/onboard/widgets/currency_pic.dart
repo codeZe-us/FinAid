@@ -38,6 +38,7 @@ class _CurrencyPicWidget extends State<CurrencyPicWidget>{
     ThemeData theme = Theme.of(context);
     AppCubit cubit = context.read<AppCubit>();
     return Scaffold(
+            backgroundColor: Colors.yellow.shade200,
       body: SafeArea(
         child: Container(
           padding: const EdgeInsets.symmetric( horizontal: 15),

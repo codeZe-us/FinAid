@@ -16,6 +16,7 @@ class ProfileWidget extends StatelessWidget{
     AppCubit cubit = context.read<AppCubit>();
     TextEditingController controller = TextEditingController(text: cubit.state.username);
     return Scaffold(
+            backgroundColor: Colors.yellow.shade200,
       body: SafeArea(
         child: Container(
           padding: const EdgeInsets.symmetric(vertical: 50, horizontal: 25),

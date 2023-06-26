@@ -9,6 +9,7 @@ import '../../../../data/helpers/events.dart';
 import '../../../../domain/model/category.model.dart';
 import '../buttons/button.dart';
 import '../currency.dart';
+
 typedef Callback = void Function();
 class CategoryForm extends StatefulWidget {
   final Category? category;
@@ -61,7 +62,6 @@ class _CategoryForm extends State<CategoryForm>{
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-
                 Container(
                   height: 50,
                   width: 50,

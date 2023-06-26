@@ -14,7 +14,7 @@ class LandingPage extends StatelessWidget{
   Widget build(BuildContext context) {
     ThemeData theme = Theme.of(context);
     return Scaffold(
-      //backgroundColor: Colors.blue,
+      backgroundColor: Colors.yellow.shade200,
       body: SafeArea(
         child: Container(
           padding: const EdgeInsets.symmetric(vertical: 30, horizontal: 15),
